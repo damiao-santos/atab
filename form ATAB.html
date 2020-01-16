@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/Form ATAb.css">
+    
+</head>
+<article id="container">
+    <header id="header">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                      <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="atab.html"><strong>HOME</strong></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href=""><strong>CONVÊNIOS</strong></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="EnvioAtab.html"><strong>CONTATOS</strong></a>
+                  </li>
+                  </ul>
+                  </div>
+                  </nav>
+    <h1 id="title" class="text-center">Job Form<h1>
+    <p id="description" class="text-center">Form to job database<p>
+    </header>
+    <form id="survey-form" class="container">
+      <div id="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name here" class="form-control" required/>
+      </div>
+      <div id="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email here" class="form-control" required/>
+      </div>
+      <div id="form-group">
+        <label id="number-label" for="number">Age</label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age"/>
+      </div>
+      <div id="form-group">
+        <p>Which job you want to apply?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disable selected value>Select the job to apply</option>
+          <option value="seaman">AB Seaman</option>
+          <option value="Oiler">Oiler</option>
+          <option value="Captain of Long Haul">Captain of Long Haul</option>
+          <option value="Steward">Steward</option>
+          <option value="Cook">Cook</option>
+          <option value="Officer">Officer</option>
+        </select>
+      </div>
+      <div id="form-group">
+        <p>What is your educational level?</p>
+        <label><input name="school" type="radio" value="Junior High School" class="input-radio" checked>Junior High School</label></br>
+        <label><input name="school" type="radio" value="Middle High School" class="input-radio" >Middle High School</label></br>
+        <label><input name="school" type="radio" value="College" class="input-radio" >College</label></br>
+      </div>
+    <div id="form-group">
+      <p>Choose a shift rotation<span class="clue"> (Check all that apply)</span></p>
+      <label><input name="rotation" type="checkbox" value="28x28" class="input-checkbox">28x28</label></br>
+      <label><input name="rotation" type="checkbox" value="60x60" class="input-checkbox">60x60</label></br>
+      <label><input name="rotation" type="checkbox" value="90x120" class="input-checkbox">90x120</label></br>
+  </div>
+  <div id="form-group">
+    <p>Put your curricullum at the field below.</p>
+    <textarea id="curricullum" name="curricullum "placeholder="Paste your Curricullum here..." class="input-textarea"></textarea>
+  </div>
+  <div id="form-group">
+    <button type="submit" id="submit" class="submit-button">Submit</button>
+  </div>
+  </form>
+  </article>
+  <footer>
+        <h3 class="footer">Sobre Nós</h3>
+    <a href="https://www.facebook.com/ATAB2018/" target="_blank"><img src="img/facebook.png" alt="Pagina Facebook"> </a>
+    </footer>
+</html>
