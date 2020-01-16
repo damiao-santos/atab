@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Formulario</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="css/Form ATAb.css">
+    <link rel="stylesheet" href="projetos/atab/bootstrap/css/bootstrap.min.css">
     
 </head>
 <article id="container">
@@ -14,7 +15,7 @@
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                       <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="atab.html"><strong>HOME</strong></a>
+                    <a class="nav-link" href="index.html"><strong>HOME</strong></a>
                   </li>
                   <li>
                     <a class="nav-link" href=""><strong>CONVÊNIOS</strong></a>
@@ -25,26 +26,26 @@
                   </ul>
                   </div>
                   </nav>
-    <h1 id="title" class="text-center">Job Form<h1>
-    <p id="description" class="text-center">Form to job database<p>
+    <h1 id="title" class="text-center">Formulário de Cadastro<h1>
+    <p id="description" class="text-center">Formulário para Banco de Vagas<p>
     </header>
     <form id="survey-form" class="container">
       <div id="form-group">
-        <label id="name-label" for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name here" class="form-control" required/>
+        <label id="name-label" for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Digite o nome" class="form-control" required/>
       </div>
       <div id="form-group">
         <label id="email-label" for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email here" class="form-control" required/>
+        <input type="email" id="email" name="email" placeholder="Digite um e-mail valido" class="form-control" required/>
       </div>
       <div id="form-group">
-        <label id="number-label" for="number">Age</label>
-        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age"/>
+        <label id="number-label" for="number">Idade</label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Idade"/>
       </div>
       <div id="form-group">
-        <p>Which job you want to apply?</p>
+        <p>Qual vaga deseja se candidatar?</p>
         <select id="dropdown" name="role" class="form-control" required>
-          <option disable selected value>Select the job to apply</option>
+          <option disable selected value>Selecione uma vaga para se candidatar</option>
           <option value="seaman">AB Seaman</option>
           <option value="Oiler">Oiler</option>
           <option value="Captain of Long Haul">Captain of Long Haul</option>
@@ -54,7 +55,7 @@
         </select>
       </div>
       <div id="form-group">
-        <p>What is your educational level?</p>
+        <p>Formação Acadêmica</p>
         <label><input name="school" type="radio" value="Junior High School" class="input-radio" checked>Junior High School</label></br>
         <label><input name="school" type="radio" value="Middle High School" class="input-radio" >Middle High School</label></br>
         <label><input name="school" type="radio" value="College" class="input-radio" >College</label></br>
@@ -76,6 +77,6 @@
   </article>
   <footer>
         <h3 class="footer">Sobre Nós</h3>
-    <a href="https://www.facebook.com/ATAB2018/" target="_blank"><img src="img/facebook.png" alt="Pagina Facebook"> </a>
+    <a href="https://www.facebook.com/ATAB2018/" target="_blank"><img src="/projetos/atab/img/facebook.png" alt="Pagina Facebook"> </a>
     </footer>
 </html>
