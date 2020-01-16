@@ -9,6 +9,9 @@
 *::after {
   box-sizing: border-box;
 }
+.nav-link{
+  color: white;
+}
 body {
   font-family: 'Dosis', sans-serif;
   font-size: 1rem;
