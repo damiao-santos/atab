@@ -10,27 +10,49 @@
     
 </head>
 
-    <header id="header">
-              <nav class="navbar navbar-expand-lg .navbar-dark">
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                      <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://damiao-santos.github.io/atab/"><strong>HOME</strong></a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href=""><strong>CONVÊNIOS</strong></a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="https://damiao-santos.github.io/atab/formulario/form%20ATAB.html"><strong>FORMULÁRIOS</strong></a>
-                  </li>
-                  </ul>
-                  </div>
-                  </nav>
-   
+    <header
+     id="header">
+     <nav class="navbar navbar-expand-lg fixed-top bg-blue">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+    <div class="padding-top">
     <h1 id="title" class="text-center">Formulário de Cadastro<h1>
-    <p id="description" class="text-center">Formulário para Banco de Vagas<p>
+      <p id="description" class="text-center">Formulário para Banco de Vagas<p>
+  </p>
+</div class="padding-top">
     </header>
     <article id="container">
+     
+    
     <form id="survey-form" class="container">
       <div id="form-group">
         <label id="name-label" for="name">Nome</label>
@@ -76,6 +98,8 @@
     <button type="submit" id="submit" class="submit-button">Enviar</button>
   </div>
   </form>
+  
+</div>
   </article>
   <footer>
         <h3 class="footer">Sobre Nós</h3>
